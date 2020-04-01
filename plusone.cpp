@@ -1,5 +1,6 @@
 # interviwebit
 interview bit codes
+// [1,2,3] : [1,2,4] || [9,9,9] : [1,0,0,0] || [0,1,2,3] : [1,2,4]
 vector<int> Solution::plusOne(vector<int> &A) {
     int n =A.size();
     vector<int>temp(n+1,0); //to deal if all elements are 9. ex : for [9,9] o/p : [1,0,0] which is temp with temp[0]=1.
